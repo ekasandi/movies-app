@@ -19,7 +19,7 @@ media
 .idea/Django2_movies.iml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/misc.xml
-.idea/modules.xmlgit g
+.idea/modules.xml
 .idea/vcs.xml
 # AWS User-specific
 .idea/**/aws.xml
