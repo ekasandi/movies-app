@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+{% extends 'movies/_base.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+
+    {% block content %}
+    <h1>
+      I like mystery movies
+    </h1>
+
+    {% load static %}
+    <img style="width:1000px" src="{% static 'movies/pic2.jpg' %}" alt="About Me Picture">
+
+    {% endblock %}
+
+</body>
+</html>
+

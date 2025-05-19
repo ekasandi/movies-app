@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+{% extends 'movies/_base.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+    {% block content %}
+    <h1>
+        My Fav Movies list:
+    </h1>
+    {% if movies %}
+        <ul>
+            {% for movie in movies %}
+                <li>
+                    {{ movie }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p> Sorry....No favorite movies... </p>
+    {% endif %}
+    {% endblock %}
+
+</body>
+</html>
+
+
